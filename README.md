@@ -5,8 +5,8 @@ Löscht in regelmäßigen Abständen den REDAXO-Cache. Für alle, die sich siche
 ## Features
 
 * Löscht den REDAXO-Cache. Wieder und wieder.
-* Spart Speicherplatz auf knapp bemessenen Webserver-Paketen. Nie wieder volle Festplatte
-* Vermeidet veraltete Pathlists, Media-Manager-Cache-Dateien
+* Spart Speicherplatz auf knapp bemessenen Webserver-Paketen. Nie wieder volles Webspace-Paket.
+* Vermeidet veraltete Pathlists in URLs, Media-Manager-Cache-Dateien, alte Klassendefinitionen.
 * Perfektes Gegenstück zu [Cache-Warmup](https://redaxo.org/download/addons/cache_warmup/)
 * Unterscheidet gewöhnliche REDAXO-Entwickler von Power-Usern
 * Macht dem Addon-Entwickler Freude. Endlich sind alle Probleme im Zusammenhang mit dem Cache gelöst.
