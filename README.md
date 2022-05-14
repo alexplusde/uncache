@@ -26,4 +26,4 @@ https://github.com/alexplusde
 
 ## Credits
 
-Vielen Dank an [Eduard Anatoljewitsch Chil](https://www.youtube.com/watch?v=32UGD0fV45g)
+Vielen Dank an [Eduard Anatoljewitsch Chil](https://www.youtube.com/watch?v=32UGD0fV45g) für die Inspiration. Danaum fatale munus! 
