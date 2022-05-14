@@ -1,5 +1,5 @@
 package: uncache 
-version: '1.0.0' 
+version: '1.0.1' 
 author: 'Alexander Walther' 
 supportpage: https://github.com/alexplusde/uncache 
 
@@ -13,3 +13,4 @@ page:
 
 default_config:
     seconds: 3600 
+    next: 0
