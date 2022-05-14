@@ -4,5 +4,5 @@
 
 if (time() > rex_config::get('uncache, next')) {
     rex_delete_cache();
+    rex_config::set('uncache', 'next', time() + rex_config::get('uncache', 'seconds'));
 }
-rex_config::set('uncache', 'next', time() + rex_config::get('uncache', 'seconds'));
