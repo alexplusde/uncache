@@ -12,5 +12,5 @@ page:
     hidden: true
 
 default_config:
-    seconds: 3600 
+    seconds: 300
     next: 0
