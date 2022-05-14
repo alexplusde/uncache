@@ -7,8 +7,6 @@ supportpage: https://github.com/alexplusde/uncache
 requires:                       
     redaxo: ^5.0
 
-
-
 page:
     title: translate:uncache_title    
     hidden: true
