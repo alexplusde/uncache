@@ -1,4 +1,4 @@
-# Uncache - Nur Teiles des REDAXO-Caches löschen
+# Uncache - Nur Teile des REDAXO-Caches löschen
 
 Bietet eine Möglichkeit, den REDAXO-Cache zu löschen, ohne dabei Medien-Manager-Cache-Dateien zu entfernen.
 
