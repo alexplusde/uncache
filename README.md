@@ -1,15 +1,13 @@
-# uncache - REDAXO Cache Probleme
+# Uncache - Nur Teiles des REDAXO-Caches löschen
 
-Löscht in regelmäßigen Abständen den REDAXO-Cache. Für alle, die sich sicher sind, dass es daran liegen muss.
+Bietet eine Möglichkeit, den REDAXO-Cache zu löschen, ohne dabei Medien-Manager-Cache-Dateien zu entfernen.
 
 ## Features
 
-* Löscht den REDAXO-Cache. Wieder und wieder.
-* Spart Speicherplatz auf knapp bemessenen Webserver-Paketen. Nie wieder volles Webspace-Paket.
+* Löscht den REDAXO-Cache, so wie du es brauchst.
 * Vermeidet veraltete Pathlists in URLs, Media-Manager-Cache-Dateien, alte Klassendefinitionen.
 * Perfektes Gegenstück zu [Cache-Warmup](https://redaxo.org/download/addons/cache_warmup/)
-* Unterscheidet gewöhnliche REDAXO-Entwickler von Power-Usern
-* Macht dem Addon-Entwickler Freude. Endlich sind alle Probleme im Zusammenhang mit dem Cache gelöst.
+* Spart Medien Manager Cache-Dateien aus.
 
 ## Lizenz
 
@@ -25,5 +23,3 @@ https://github.com/alexplusde
 [Alexander Walther](https://github.com/alexplusde)
 
 ## Credits
-
-Vielen Dank an [Eduard Anatoljewitsch Chil](https://www.youtube.com/watch?v=32UGD0fV45g) für die Inspiration. Danaum fatale munus! 
