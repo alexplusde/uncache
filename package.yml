@@ -14,6 +14,7 @@ page:
 pages:
     system/uncache:
         title: translate:uncache
+        icon: rex-icon fa-refresh
 
 
 default_config:

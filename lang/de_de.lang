@@ -1,2 +1,5 @@
 uncache = Cache löschen
-uncache_settings = Einstellungen
+uncache_settings = Aktion ausführen
+
+uncache_donate = Weiterentwicklung unterstützen 
+uncache_info_donate = Anders als die meisten Addons aus der REDAXO-Community ist die Entstehung und Weiterentwicklung dieses Addons nicht durch eigene Projekte gedeckt. Mit einer Beauftraung des Addon-Autors sicherst du die Entstehung und Weiterentwicklung von praktischen REDAXO-Addons. 
