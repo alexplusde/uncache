@@ -5,19 +5,28 @@ class uncache
     public static function addon($addon)
     {
         $dir = rex_path::addonCache($addon);
-        array_map("unlink", glob("$dir/*"));
+        $files = glob("$dir{*,*/*,*/*/*,*/*/*/*}", GLOB_BRACE);
+
+        foreach ($files as $entry => $file) {
+            unlink($file);
+        }
     }
     public static function core()
     {
         $dir = rex_path::coreCache();
-        array_map("unlink", glob("$dir/*"));
+        $files = glob("$dir{*,*/*,*/*/*,*/*/*/*}", GLOB_BRACE);
+
+        foreach ($files as $entry => $file) {
+            unlink($file);
+        }
     }
 
     public static function url()
     {
         self::addon("url2");
+        self::addon("yrewrite");
     }
-    
+
     public static function yrewrite()
     {
         self::addon("yrewrite");
@@ -30,16 +39,24 @@ class uncache
 
     public static function auto()
     {
-        self::url();
-        self::yrewrite();
-        self::structure();
         self::core();
+        $files = glob("$dir{*,*/*,*/*/*,*/*/*/*}", GLOB_BRACE);
+
+        /* Skip Media Manager Files */
+        foreach ($files as $entry => $file) {
+            if (!str_starts_with($file, rex_path::addonCache('media_manager'))) {
+                unlink($file);
+            }
+        }
     }
-    
+
     public static function all()
     {
-        self::core();
-        $dir = rex_path::addonCache();
-        array_map("unlink", glob("$dir/*"));
+        $dir = rex_path::cache();
+        $files = glob("$dir{*,*/*,*/*/*,*/*/*/*}", GLOB_BRACE);
+
+        foreach ($files as $entry => $file) {
+            unlink($file);
+        }
     }
 }
