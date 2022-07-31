@@ -1,15 +1,20 @@
 package: uncache 
-version: '1.0.1' 
+version: '2.0-dev' 
 author: 'Alexander Walther' 
 supportpage: https://github.com/alexplusde/uncache 
 
 
 requires:                       
-    redaxo: ^5.0
+    redaxo: ^5.12
 
 page:
-    title: translate:uncache_title    
+    title: translate:uncache_title
     hidden: true
+
+pages:
+    system/uncache:
+        title: translate:uncache
+
 
 default_config:
     seconds: 300
